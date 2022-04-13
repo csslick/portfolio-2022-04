@@ -1,0 +1,116 @@
+
+main {
+  margin-top: 40px;
+  width: 100%;
+}
+
+header h1 {
+  color: #fff;
+  font-size: 50px;
+}
+
+header p {
+  font-size: 18px;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+}
+
+#works {
+  /* padding: 40px 0;  */
+}
+
+#works .container{
+  display: flex;
+  padding: 0;
+}
+
+.work-list .item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#works .container > ul,
+#works .container > .figure {
+  width: 50%;
+}
+
+#works .container > .figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#works .figure img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* border: 1px solid #ccc; */
+}
+
+#works figure img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+#works .row > * {
+  padding: 0;
+  /* outline: 1px solid red; */
+}
+
+#works .work-list {
+  padding-right: 30px;
+  /* outline: 1px solid red; */
+}
+
+.col-div-5 {
+  width: 25%;
+  height: 25%;
+  /* flex: 1; */
+}
+
+.work-info {
+  /* outline: 2px solid green; */
+  padding-left: 30px;
+}
+
+
+header .container {
+  border-bottom: 2px solid #fff;
+}
+
+.figure img{
+  box-shadow: 0 0 8px rgba(0,0,0,0.2);
+}
+
+figure figcaption {
+  margin: 30px 0;
+  margin-top: 1em;
+  font-size: 18px;
+}
+
+.item {
+  transition: 0.4s;    
+}
+
+.item:hover {
+  position: relative;
+  transform: scale(1.2);
+  z-index: 9;
+}
+
+.item:hover img {
+  box-shadow: 0 0 8px rgba(0,0,0,0.2);
+}
+
+.page {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+
+
