@@ -1,5 +1,4 @@
 const data = [
-
   {
     name: "김규연",
     img: "images/김규연.jpg",
@@ -16,9 +15,24 @@ const data = [
     url: "https://qkraksehs.github.io/PJHportfolio/",
   },
   {
+    name: "신희정",
+    img: "images/신희정.jpg",
+    url: "https://sinheejung.github.io/shj-portfolio/",
+  },
+  {
     name: "손은샘",
     img: "images/손은샘.png",
     url: "https://soneunsaem.github.io/eunsaem-portfolio/",
+  },
+  {
+    name: "임미화",
+    img: "images/임미화.jpg",
+    url: "https://limmihwa.github.io/_profile/",
+  },
+  {
+    name: "이제현",
+    img: "images/이제현.jpg",
+    url: "https://leejaehyun93.github.io/portfolio.github.com",
   },
   {
     name: "조근우",
